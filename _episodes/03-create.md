@@ -38,7 +38,7 @@ so no changes show up.
 
 > ## Advanced tip
 > If you navigate to the `survy_data` directory on the command line
-> and use the `-a` flag to show everything,
+> and use `ls -a` flag to show everything,
 > we can see that Git has created a hidden directory within `survey_data` called `.git`:
 > 
 > ~~~
@@ -55,11 +55,12 @@ so no changes show up.
 > If we ever delete it,
 > we will lose the project's history.
 >
+{: .callout}
 
 > ## Places to Create Git Repositories
 >
 > Try to create a new git repository inside of the `survey_data` repository you just created.
-> Since you dn't have the welcome screen anymore, you'll need to go to File/New Repository.
+> Since you don't have the welcome screen anymore, you'll need to go to File/New Repository.
 >
 > What happens?  Can you create the sub-repository? Why is it a bad idea to do this? 
 >
