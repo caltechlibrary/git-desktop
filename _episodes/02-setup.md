@@ -17,7 +17,7 @@ we need to configure a few things.
 You'll see a welcome screen when you open GitHub Desktop.  Click 
 "Sign in to GitHub.com" enter your GitHub username and password.  
 
-![welcome](../fig/GitDesktop1.png)
+![welcome](../fig/GitDesktop1.PNG)
 
 You do not need a 
 GitHub account to use GitHub Desktop (It's an open source program and
@@ -30,7 +30,7 @@ Next, we'll set our name and email address for Git.  A requirement of
 the Git version control system is that you set a name and email address.
 These will be included with the history of changes made to a repository.
 
-![welcome](../fig/GitDesktop3.png)
+![welcome](../fig/GitDesktop3.PNG)
 
 While this name and email doesn't need to be the same as the one in your
 GitHub account, it's easier if they match.  Note that the default email from
