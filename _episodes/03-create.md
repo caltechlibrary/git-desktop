@@ -7,144 +7,69 @@ questions:
 objectives:
 - "Create a local Git repository."
 keypoints:
-- "`git init` initializes a repository."
+- "Local repositories can be set up and track changes in files."
 ---
 
 Once Git is configured,
 we can start using it.
-Let's create a directory for our work and then move into that directory:
 
-~~~
-$ mkdir planets
-$ cd planets
-~~~
-{: .bash}
+Let's create a new repository for our work.  In this lesson we're going to be adding additional information
+to the survey_data_clean.csv file we worked on in the "Data Organization" part of the workshop. Click 
+"Create new repository".  
 
-Then we tell Git to make `planets` a [repository]({{ page.root }}/reference/#repository)—a place where
-Git can store versions of our files:
+![welcome](../fig/GitDesktop4.PNG)
 
-~~~
-$ git init
-~~~
-{: .bash}
+Then we give our [repository]({{ page.root }}/reference/#repository) a name - in this case `survey_data`.  
+We also choose the location to put the repository on our local computer.  For this workshop it's easier to
+put the repository on your desktop.  It's also good practice to check the README box, which will create a blank
+file where we can put information about our content.  There are also options for Git ignore (which handles files
+you don't want tracked) and a License, both of which are outside the scope of this workshop.  
 
-If we use `ls` to show the directory's contents,
-it appears that nothing has changed:
+![welcome](../fig/GitDesktop6.PNG)
 
-~~~
-$ ls
-~~~
-{: .bash}
+If you look on your desktop you'll see a new folder.  This is your new repository, which is just like any other
+folder on your computer.  However, it is also special because Git can now track versions of your files.
 
-But if we add the `-a` flag to show everything,
-we can see that Git has created a hidden directory within `planets` called `.git`:
+![welcome](../fig/GitDesktop7.PNG)
 
-~~~
-$ ls -a
-~~~
-{: .bash}
 
-~~~
-.	..	.git
-~~~
-{: .output}
+You'll now see that GitHub desctop shows the status of your repository.  You haven't added anything yet,
+so no changes show up.
 
-Git stores information about the project in this special sub-directory.
-If we ever delete it,
-we will lose the project's history.
-
-We can check that everything is set up correctly
-by asking Git to tell us the status of our project:
-
-~~~
-$ git status
-~~~
-{: .bash}
-
-~~~
-# On branch master
-#
-# Initial commit
-#
-nothing to commit (create/copy files and use "git add" to track)
-~~~
-{: .output}
+> ## Advanced tip
+> If you navigate to the `survy_data` directory on the command line
+> and use the `-a` flag to show everything,
+> we can see that Git has created a hidden directory within `survey_data` called `.git`:
+> 
+> ~~~
+> $ ls -a
+> ~~~
+> {: .bash}
+> 
+> ~~~
+> .	..	.git
+> ~~~
+> {: .output}
+>
+> Git stores information about the project in this special sub-directory.
+> If we ever delete it,
+> we will lose the project's history.
+>
 
 > ## Places to Create Git Repositories
 >
-> Dracula starts a new project, `moons`, related to his `planets` project.
-> Despite Wolfman's concerns, he enters the following sequence of commands to
-> create one Git repository inside another:
+> Try to create a new git repository inside of the `survey_data` repository you just created.
+> Since you dn't have the welcome screen anymore, you'll need to go to File/New Repository.
 >
-> ~~~
-> $ cd             # return to home directory
-> $ mkdir planets  # make a new directory planets
-> $ cd planets     # go into planets
-> $ git init       # make the planets directory a Git repository
-> $ mkdir moons    # make a sub-directory planets/moons
-> $ cd moons       # go into planets/moons
-> $ git init       # make the moons sub-directory a Git repository
-> ~~~
-> {: .bash}
->
-> Why is it a bad idea to do this? (Notice here that the `planets` project is now also tracking the entire `moons` repository.)
-> How can Dracula undo his last `git init`?
+> What happens?  Can you create the sub-repository? Why is it a bad idea to do this? 
 >
 > > ## Solution
 > >
 > > Git repositories can interfere with each other if they are "nested" in the
 > > directory of another: the outer repository will try to version-control 
 > > the inner repository. Therefore, it's best to create each new Git
-> > repository in a separate directory. To be sure that there is no conflicting
-> > repository in the directory, check the output of `git status`. If it looks
-> > like the following, you are good to go to create a new repository.
-> >
-> > repository as shown:
-> >
-> > ~~~
-> > $ git status
-> > ~~~
-> > {: .bash}
-> > ~~~
-> > fatal: Not a git repository (or any of the parent directories): .git
-> > ~~~
-> > {: .output}
-> >
-> > Note that we can track files in directories within a Git:
-> >
-> > ~~~
-> > $ touch moon phobos deimos titan    # create moon files
-> > $ cd ..                             # return to planets directory
-> > $ ls moons                          # list contents of the moons directory
-> > $ git add moons/*                   # add all contents of planets/moons
-> > $ git status                        # show moons files in staging area
-> > $ git commit -m "add moon files"    # commit planets/moons to planets Git repository
-> > ~~~
-> > {: .bash}
-> >
-> > Similarly, we can ignore (as discussed later) entire directories, such as the `moons` directory:
-> >
-> > ~~~
-> > $ nano .gitignore # open the .gitignore file in the texteditor to add the moons directory
-> > $ cat .gitignore # if you run cat afterwards, it should look like this:
-> > ~~~
-> > {: .bash}
-> >
-> > ~~~
-> > moons
-> > ~~~
-> > {: .output}
-> >
-> > To recover from this little mistake, Dracula can just remove the `.git`
-> > folder in the moons subdirectory. To do so he can run the following command from inside the 'moons' directory:
-> >
-> > ~~~
-> > $ rm -rf moons/.git
-> > ~~~
-> > {: .bash}
-> >
-> > But be careful! Running this command in the wrong directory, will remove
-> > the entire git-history of a project you might wanted to keep. Therefore, always check your current directory using the
-> > command `pwd`.
+> > repository in a separate directory. Git Desktop is smart enough to block this operation, 
+> > even if the repository wasn't created in GitHub Desktop (that's the suggestion in the yellow triangle-
+> > we've already added the repo so it doesn't do anything).
 > {: .solution}
 {: .challenge}
