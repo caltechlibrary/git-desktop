@@ -19,7 +19,7 @@ to the survey_data_clean.csv file we worked on in the "Data Organization" part o
 
 ![welcome](../fig/GitDesktop4.PNG)
 
-Then we give our [repository]({{ page.root }}/reference/#repository) a name - in this case `survey_data`.  
+Then we give our repository a name - in this case `survey_data`.  
 We also choose the location to put the repository on our local computer.  For this workshop it's easier to
 put the repository on your desktop.  It's also good practice to check the README box, which will create a blank
 file where we can put information about our content.  There are also options for Git ignore (which handles files
