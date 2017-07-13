@@ -37,5 +37,8 @@ GitHub account, it's easier if they match.  Note that the default email from
 GitHub is @users.noreply.github.com - this is a private address that is connected
 to your GitHub account.  It doesn't accept email and ensures privacy. 
 
+The weird robot image on the bottom left hand side is made up and shows how a commit
+history will look.  This might get removed in a future release.
+
 These configuration changes don't have to be added next time you start GitHub Desktop, but
 can be modified under Preferences/Accounts and Preferences/Git.
