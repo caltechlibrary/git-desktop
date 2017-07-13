@@ -3,17 +3,9 @@ layout: lesson
 root: .
 ---
 
-Wolfman and Dracula have been hired by Universal Missions (a space
-services spinoff from Euphoric State University) to investigate if it
-is possible to send their next planetary lander to Mars.  They want to
-be able to work on the plans at the same time, but they have run into
-problems doing this in the past.  If they take turns, each one will
-spend a lot of time waiting for the other to finish, but if they work
-on their own copies and email changes back and forth things will be
-lost, overwritten, or duplicated.
-
-A colleague suggests using [version control]({{ page.root }}/reference/#version-control) to
-manage their work. Version control is better than mailing files back and forth:
+This lesson uses the application GitHub Desktop to track changes in files.  
+It uses [version control]({{ page.root }}/reference/#version-control) to
+manage files. Version control is better than mailing files back and forth:
 
 *   Nothing that is committed to version control is ever lost, unless
     you work really, really hard at it. Since all old versions of
@@ -46,7 +38,7 @@ to be shared can and should be stored in a version control system.
 
 > ## Prerequisites
 >
-> In this lesson we use Git from the Unix Shell.
-> Some previous experience with the shell is expected,
-> *but isn't mandatory*.
+> No previous experience is required, although
+> we discuss files used previously in the Data Carpentry
+> Ecology Data Organization and Open Refine lessons.
 {: .prereq}
