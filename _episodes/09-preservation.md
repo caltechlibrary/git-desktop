@@ -4,13 +4,13 @@ teaching: 5
 exercises: 5
 questions:
 - "How can version control help me make my work more open?"
-- "How can I easily preserve and share my code?
+- "How can I easily preserve and share my code?"
 objectives:
 - "Explain how a version control system can be leveraged as an electronic lab notebook for computational work."
-- "Show how to preserve GitHub repos in the CaltechDATA Institutional Repository"
+- "Show how to preserve GitHub repos in the CaltechDATA Institutional Repository."
 keypoints:
 - "Open scientific work is more useful and more highly cited than closed."
-- "You should preserve and share your GitHub content in a scholarly repository"
+- "You should preserve and share your GitHub content in a scholarly repository."
 ---
 
 > The opposite of "open" isn't "closed".
