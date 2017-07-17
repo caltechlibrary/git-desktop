@@ -22,8 +22,8 @@ to the survey_data_clean.csv file we worked on in the "Data Organization" part o
 Then we give our repository a name - in this case `survey_data`.  
 We also choose the location to put the repository on our local computer.  For this workshop it's easier to
 put the repository on your desktop.  It's also good practice to check the README box, which will create a blank
-file where we can put information about our content.  There are also options for Git ignore (which handles files
-you don't want tracked) and a License, both of which are outside the scope of this workshop.  
+file where we can put information about our content.  We'll discuss Git ignore (which handles files
+you don't want tracked) later in the workshop, and the License section is a discussion for another workshop.  
 
 ![welcome](../fig/GitDesktop6.PNG)
 
