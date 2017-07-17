@@ -41,6 +41,36 @@ select View on GitHub.
 
 ![View on GitHub menu item highlighted](../fig/GitDesktopGitHub3.png)
 
+We'll then see our repository on GitHub:
+
+![survey_data repository as seen on GitHub](../fig/GitDesktopGitHub4.png)
+
+A feature of having a repository hosted remotely is that changes can be made to
+it from beyond the local machine you started with. Let's make some changes to
+the repository on GitHub itself and then pull them back into our local copy.
+
+Click the link to the `README.md` file and then click the edit pencil on the
+right side of the file header.
+
+![README.md file with edit pencil hover](../fig/GitDesktopGitHub5.png)
+
+Add some text to the file and then click the Commit Changes button at the
+bottom of the page. It is a good idea to change the subject and description of
+the commit message, but we can accept the defaults on this occasion.
+
+![adding text and showing commit changes button](../fig/GitDesktopGitHub6.png)
+
+If we go back to the GitHub Desktop application we will see a change in the
+interface. Where it once said Publish Repository (or Fetch Origin) it now says
+Pull Origin with a number by it. This indicates that a number of commits have
+been made to the repository that we do not have in our local copy. Click the tab
+to pull the changes locally.
+
+![Pull Origin button highlighted](../fig/GitDesktopGitHub7.png)
+
+If you click the History tab in GitHub Desktop you will see the latest commit
+made from the web is now included in the repository.
+
 > ## GitHub GUI
 >
 > Browse to your `survey_data` repository on GitHub.
