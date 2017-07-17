@@ -169,8 +169,7 @@ You also get a badge (found on the GitHub page in CaltechDATA), that you can
 include in your repository README file on GitHub.  This will update to the newest DOI if
 you do additional releases.
 
-[![DOI](https://data.caltech.edu/badge/81266861.svg)](https://data.caltech.edu/badge/latestdoi/81266861)
-
+[![DOI](https://data.caltech.edu/badge/doi/10.22002/D1.242.svg)](https://data.caltech.edu/badge/latestdoi/81266861)
 
 ## GitHub and Data
 
