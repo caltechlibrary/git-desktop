@@ -4,10 +4,13 @@ teaching: 5
 exercises: 5
 questions:
 - "How can version control help me make my work more open?"
+- "How can I easily preserve and share my code?
 objectives:
 - "Explain how a version control system can be leveraged as an electronic lab notebook for computational work."
+- "Show how to preserve GitHub repos in the CaltechDATA Institutional Repository"
 keypoints:
 - "Open scientific work is more useful and more highly cited than closed."
+- "You should preserve and share your GitHub content in a scholarly repository"
 ---
 
 > The opposite of "open" isn't "closed".
@@ -94,40 +97,90 @@ by acting as a shareable electronic lab notebook for computational work:
     control repository is easy to archive for perpetuity, and contains
     the entire history.
 
-> ## Making Code Citable
->
-> [This short guide](https://guides.github.com/activities/citable-code/) from GitHub
-> explains how to create a Digital Object Identifier (DOI) for your code,
-> your papers,
-> or anything else hosted in a version control repository.
-{: .callout}
+## Code and Data Preservation
 
-> ## How Reproducible Is My Work?
->
-> Ask one of your labmates to reproduce a result you recently obtained
-> using only what they can find in your papers or on the web.
-> Try to do the same for one of their results,
-> then try to do it for a result from a lab you work with.
-{: .challenge}
+However, GitHub is a commercial service and makes no promises that your code
+will be available in the future.  Anyone who has tried following web links in
+old publications knows that it's very easy for URLs to break.  In order to
+fulfill the promise of open science, you need to deposit your code in data in a
+trusted repository - a web service that will ensuse that your files are
+available in the future. These repositories will provide a DOI, a permamant
+and registered link that leads to your code or data. You should include this
+DOI with your publications as the link location can be updated without breaking.
 
-> ## How to Find an Appropriate Data Repository?
->
-> Surf the internet for a couple of minutes and check out the data repositories
-> mentioned above: [Figshare](http://figshare.com/), [Zenodo](http://zenodo.org),
-> [Dryad](http://datadryad.org/). Depending on your field of research, you might
-> find community-recognized repositories that are well-known in your field.
-> You might also find useful [these data repositories recommended by Nature](
-> http://www.nature.com/sdata/data-policies/repositories).
-> Discuss with your neighbor which data repository you might want to
-> approach for your current project and explain why.
-{: .challenge}
+If your field has a domain-specific repository, this is a good place to store
+your data.  You can find a good listing of subject-specific repositories at
+[PLOS](http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories).  
+A more complete list of repositories is available at
+[re3data](http://www.re3data.org)
 
-> ## Can I Also Publish Code?
->
-> There are many new ways to publish code and to make it citable. One
-> way is described [on the homepage of GitHub itself](
-> https://guides.github.com/activities/citable-code/).
-> Basically it's a combination of GitHub (where the code is) and Zenodo (the
-> repository creating the DOI). Read through this page while being aware
-> that this is only one of many ways to making your code citable.
-{: .challenge}
+However, most code and a lot of data don't fit in an existing repository.  This
+is where institutional repositories like [CaltechDATA](data.caltech.edu) come
+in.  We'll use CaltechDATA throughout the rest of this section, but non-Caltech
+users can use [Zenodo](http://zenodo.org), which is similar. 
+
+### Setting Up Automatic GitHub Preservation
+
+Log into [CaltechDATA](data.caltech.edu) by clicking the Login link in the
+upper right-hand corner of the page.  You can click the "Caltech account" link
+to log in with your Caltech IMSS username and password. Once you're logged in,
+click on your profile (the little person icon in the upper right hand corner of
+the page) and select GitHub.  By clicking the button and entering your GitHub
+username and password you can connect your CaltechDATA account to GitHub.
+
+You will now see a list of all the repositories you have access to.  In order
+to turn on repository preservation, click the slider to the right of the repository
+name. Nothing will happen just because you click the slider.  This only tells
+CaltechDATA to watch the indicated repository for releases.
+
+![CaltechDATA Github Interface](../fig/Github_CaltechDATA.png)
+
+### Making Releases
+
+Releases are a good way to organize your development process.  They're a way
+for the scientific community to reference a specific version of your code and
+ensures that everyone is talking about the same thing. There are lots of ways
+to organize releases, but it's easiest to make a release every time someone
+else might be interested in citing your code.  This could be when you're
+preparing a publication or have finished a new feature.  
+
+To make a release, go to GitHub and click the Releases text at the center-right
+of your main repository page.  Then click the "Draft a new release" button on
+the right-hand side of the screen. You'll need to provide a version number (use
+something like v0.1 prior to publication, something like v1.2.1 for changes
+after.  See more on [versioning](http://semver.org).)  You'll also need to
+provide a title and description for your release.  
+
+![Releases](../fig/Releases.png)
+
+Once you click publish the magic happens!  CaltechDATA notices that you have
+created a new release and automatically saves everything in your
+repository.  It captures your code and files at the point of release, but does
+not save the full history.  The release is automatically assigned a DOI, which
+leads to a CaltechDATA landing page.  You'll see a download link for the files,
+information about authors, the descriptions you wrote in GitHub, and a link
+back to the GitHub repo.  You can edit the metadata for a record by clicking
+the Edit button.  This is useful if you want to include more than one author,
+ORCID identifiers, or more links.
+
+![CaltechDATA Github Landing](../fig/Landing_CaltechDATA.png)
+   
+You also get a badge (found on the GitHub page in CaltechDATA), that you can
+include in your repository README file on GitHub.  This will update to the newest DOI if
+you do additional releases.
+
+[![DOI](https://data.caltech.edu/badge/81266861.svg)](https://data.caltech.edu/badge/latestdoi/81266861)
+
+
+## GitHub and Data
+
+GitHub is great for sharing and collaborating on code, but it is not set up for
+managing scientific data.  The maximum upload file size is 100 MB, and the
+entire repository should be less than 1 GB.  An extension to git (LFS) supports
+files up to 2 GB in size, but storing these files on GitHub is fairly expensive
+($5 / month for 50 GB of storage).  It's better to store your data files on a
+disciplinary or institutional data repository.  For an overview of uploading
+data files to a repository, see this [AuthorCarpentry
+lesson](https://authorcarpentry.github.io/dois-citation-data/01-register-doi.html)
+
+
