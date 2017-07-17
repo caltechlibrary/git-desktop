@@ -11,9 +11,7 @@ keypoints:
 - "The `.gitignore` file tells Git what files to ignore."
 ---
 
-While we did say that ignoring files was outside the scope of this workshop and
-we skipped including a Git ignore file when creating the repository, we'll touch
-on it here.
+This section will touch briefly on how you can tell git to ignore certain files and why that can be useful.
 
 What if we have files that we do not want Git to track for us,
 like backup files created by our editor
