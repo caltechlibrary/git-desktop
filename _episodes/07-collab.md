@@ -16,14 +16,6 @@ will be the "Collaborator". The goal is that the Collaborator add changes into
 the Owner's repository. We will switch roles at the end, so both persons will
 play Owner and Collaborator.
 
-> ## Practicing By Yourself
->
-> If you're working through this lesson on your own, you can carry on by opening
-> a second terminal window.
-> This window will represent your partner, working on another computer. You
-> won't need to give anyone access on GitHub, because both 'partners' are you.
-{: .callout}
-
 The Owner needs to give the Collaborator access.
 On GitHub, click the settings button on the right,
 then select Collaborators, and enter your partner's username.
@@ -35,92 +27,35 @@ needs to go to [https://github.com/notifications](https://github.com/notificatio
 Once there she can accept access to the Owner's repo.
 
 Next, the Collaborator needs to download a copy of the Owner's repository to her
- machine. This is called "cloning a repo". To clone the Owner's repo into
-her `Desktop` folder, the Collaborator enters:
+machine. This is called "cloning a repo". To clone the Owner's repo into
+her `Desktop` folder, the Collaborator clicks Clone Respository from the File
+menu:
 
-~~~
-$ git clone https://github.com/vlad/planets.git ~/Desktop/vlad-planets
-~~~
-{: .bash}
+![Clone Repository menu item highlighted](../fig/GitDesktopCollab1.png)
 
-Replace 'vlad' with the Owner's username.
+Then the Collaborator enters the URL or the Owner’s username/respository in the
+first line of the pop-up window. The Collaborator then makes sure the correct
+destination directory is set on her local machine. Then she clicks Clone.
 
-![After Creating Clone of Repository](../fig/github-collaboration.svg)
+![Clone a Repository pop-up window](../fig/GitDesktopCollab2.png)
 
 The Collaborator can now make a change in her clone of the Owner's repository,
-exactly the same way as we've been doing before:
+exactly the same way as we've been doing before via Excel or a text editor.
 
-~~~
-$ cd ~/Desktop/vlad-planets
-$ nano pluto.txt
-$ cat pluto.txt
-~~~
-{: .bash}
+![Changes before committing](../fig/GitDesktopCollab3.png)
 
-~~~
-It is so a planet!
-~~~
-{: .output}
+After committing the changes click the Push Origin tab at the top.
 
-~~~
-$ git add pluto.txt
-$ git commit -m "Add notes about Pluto"
-~~~
-{: .bash}
-
-~~~
- 1 file changed, 1 insertion(+)
- create mode 100644 pluto.txt
-~~~
-{: .output}
-
-Then push the change to the *Owner's repository* on GitHub:
-
-~~~
-$ git push origin master
-~~~
-{: .bash}
-
-~~~
-Counting objects: 4, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 306 bytes, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/vlad/planets.git
-   9272da5..29aba7c  master -> master
-~~~
-{: .output}
-
-Note that we didn't have to create a remote called `origin`: Git uses this
-name by default when we clone a repository.  (This is why `origin` was a
-sensible choice earlier when we were setting up remotes by hand.)
+![Push Origin button highlighted](../fig/GitDesktopCollab4.png)
 
 Take a look to the Owner's repository on its GitHub website now (maybe you need
 to refresh your browser.) You should be able to see the new commit made by the
 Collaborator.
 
-To download the Collaborator's changes from GitHub, the Owner now enters:
+To download the Collaborator's changes from GitHub, the Owner now clicks the
+Pull Origin button (or Fetch Origin and then Pull Origin).
 
-~~~
-$ git pull origin master
-~~~
-{: .bash}
-
-~~~
-remote: Counting objects: 4, done.
-remote: Compressing objects: 100% (2/2), done.
-remote: Total 3 (delta 0), reused 3 (delta 0)
-Unpacking objects: 100% (3/3), done.
-From https://github.com/vlad/planets
- * branch            master     -> FETCH_HEAD
-Updating 9272da5..29aba7c
-Fast-forward
- pluto.txt | 1 +
- 1 file changed, 1 insertion(+)
- create mode 100644 pluto.txt
-~~~
-{: .output}
+Clicking the History tab will show the new changes locally.
 
 Now the three repositories (Owner's local, Collaborator's local, and Owner's on
 GitHub) are back in sync.
