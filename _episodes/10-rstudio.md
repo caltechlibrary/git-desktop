@@ -23,7 +23,7 @@ started using RStudio for version control, let's make a new project:
 ![](../fig/RStudio_screenshot_newproject.png)
 
 This will pop up a window asking us how we want to create the project. We have
-some options here. Let's say that we want to use RStudio with the planets
+some options here. Let's say that we want to use RStudio with the survey_data
 repository that we already made. Since that repository lives in a directory on
 our computer, we'll choose "existing directory":
 
@@ -43,9 +43,7 @@ our computer, we'll choose "existing directory":
 
 Next, RStudio will ask which existing directory we want to use. Click "browse"
 to navigate to the correct directory on your computer, then click "create
-project":
-
-![](../fig/RStudio_screenshot_navigateexisting.png)
+project".
 
 Ta-da! Now you have an R project containing your repository. Notice the
 vertical "Git" menu that is now on the menu bar. This means RStudio has
@@ -55,9 +53,8 @@ to use Git:
 ![](../fig/RStudio_screenshot_afterclone.png)
 
 To edit the files in your repository, you can click on them from the panel in
-the lower right. Let's add some more information about Pluto:
-
-![](../fig/RStudio_screenshot_editfiles.png)
+the lower right. We can edit README.md by double clicking on the file.  Tou can
+edit the file in the upper left hand panel.  Make a change and save it!
 
 We can also use RStudio to commit these changes. Go to the git menu and click
 "commit":
