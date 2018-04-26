@@ -33,11 +33,11 @@ folder on your computer.  However, it is also special because Git can now track 
 ![welcome](../fig/GitDesktop7.PNG)
 
 
-You'll now see that GitHub desctop shows the status of your repository.  You haven't added anything yet,
+You'll now see that GitHub desktop shows the status of your repository.  You haven't added anything yet,
 so no changes show up.
 
 > ## Advanced tip
-> If you navigate to the `survy_data` directory on the command line
+> If you navigate to the `survey_data` directory on the command line
 > and use `ls -a` flag to show everything,
 > we can see that Git has created a hidden directory within `survey_data` called `.git`:
 > 
