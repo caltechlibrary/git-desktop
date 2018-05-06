@@ -24,7 +24,7 @@ You'll see that GitHub Desktop has changed to signify that a new file has been a
 
 ![new file](../fig/GitDesktopChanges1.png)
 
-In order to save this version of the file, we need to commit our changes. To do this we need to write a commit meddage that describes our changes.  You can provide both a short summary of the changes and a longer description by typing in the lower left hand corner of Git Desktop. Then click Commit to master.   
+In order to save this version of the file, we need to commit our changes. To do this we need to write a commit meddage that describes our changes.  You can provide both a short summary of the changes and a longer description by typing in the lower left hand corner of GitHub Desktop. Then click Commit to master.   
 
 ![commit](../fig/GitDesktopChanges2.png)
 
@@ -48,7 +48,7 @@ If you click the History tab you'll see a record of the changes you have made.  
 
 Now let's open up our data file in a spreadsheet program.  In reality you'll want to make most changes to data files using code (we'll talk about this tomorrow), but for now we're going to manually make changes to see how things work.  Some of the fields in the data file don't have weights.  Let's add a some text in the first note field that the scale was broken.  Save the file (Because you're working with a csv file Excel may complain.  Make sure that your data file is still saved as a csv).
 
-When we switch back to Git Desktop, we see that something has happened in Changes tab.  Our data file appears in the left hand panel with a yellow star, which signifies that this file has been changed.  In the right hand panel we can see that one line in our .csv file, shown in green, has been added (it includes the "scale broken" note).  It also shows that the line without the note has been removed, shown in red.  If we write a commit message these changes will be saved in our history.
+When we switch back to GitHub Desktop, we see that something has happened in Changes tab.  Our data file appears in the left hand panel with a yellow star, which signifies that this file has been changed.  In the right hand panel we can see that one line in our .csv file, shown in green, has been added (it includes the "scale broken" note).  It also shows that the line without the note has been removed, shown in red.  If we write a commit message these changes will be saved in our history.
 
 ![new_change](../fig/GitDesktopChanges4.png)
 
@@ -62,7 +62,7 @@ When we look at the history tab, we can see our new commit in the list.  It's go
 > Try adding a folder to surveys_daya
 > 
 > Note, our newly created empty directory `directory` does not appear in
-> the chnges tab of Git Desktop. This is the reason why you will sometimes see `.gitkeep` files
+> the chnges tab of GitHub Desktop. This is the reason why you will sometimes see `.gitkeep` files
 > in otherwise empty directories. Unlike `.gitignore`, these files are not special
 > and their sole purpose is to populate a directory so that Git adds it to
 > the repository. In fact, you can name such files anything you like.
