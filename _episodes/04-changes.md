@@ -62,7 +62,7 @@ When we look at the history tab, we can see our new commit in the list.  It's go
 > Try adding a folder to survey_data.
 > 
 > Note, our newly created empty directory `directory` does not appear in
-> the changes tab of Git Desktop. This is the reason why you will sometimes see `.gitkeep` files
+> the changes tab of GitHub Desktop. This is the reason why you will sometimes see `.gitkeep` files
 > in otherwise empty directories. Unlike `.gitignore`, these files are not special
 > and their sole purpose is to populate a directory so that Git adds it to
 > the repository. In fact, you can name such files anything you like.
