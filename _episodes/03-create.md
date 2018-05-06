@@ -69,7 +69,7 @@ so no changes show up.
 > > Git repositories can interfere with each other if they are "nested" in the
 > > directory of another: the outer repository will try to version-control 
 > > the inner repository. Therefore, it's best to create each new Git
-> > repository in a separate directory. Git Desktop is smart enough to block this operation, 
+> > repository in a separate directory. GitHub Desktop is smart enough to block this operation, 
 > > even if the repository wasn't created in GitHub Desktop (that's the suggestion in the yellow triangle-
 > > we've already added the repo so it doesn't do anything).
 > {: .solution}
