@@ -14,7 +14,7 @@
 [jekyll-windows]: https://jekyll-windows.juthilo.com/
 [jekyll]: https://jekyllrb.com/
 [jupyter]: https://jupyter.org/
-[mit-license]: http://opensource.org/licenses/mit-license.html
+[mit-license]: https://opensource.org/licenses/mit-license.html
 [morea]: https://morea-framework.github.io/
 [numfocus]: https://numfocus.org/
 [osi]: https://opensource.org
