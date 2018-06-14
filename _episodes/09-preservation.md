@@ -103,8 +103,8 @@ However, GitHub is a commercial service and makes no promises that your code
 will be available in the future.  Anyone who has tried following web links in
 old publications knows that it's very easy for URLs to break.  In order to
 fulfill the promise of open science, you need to deposit your code in data in a
-trusted repository - a web service that will ensuse that your files are
-available in the future. These repositories will provide a DOI, a permamant
+trusted repository - a web service that will ensure that your files are
+available in the future. These repositories will provide a DOI, a permanent
 and registered link that leads to your code or data. You should include this
 DOI with your publications as the link location can be updated without breaking.
 

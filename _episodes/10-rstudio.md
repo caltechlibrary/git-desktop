@@ -33,7 +33,7 @@ our computer, we'll choose "existing directory":
 >
 > Although we're not going to use it here, there should be a "version control"
 > option on this menu. That is what you would click on if you wanted to
-> create a project on your computer by cloning a repository from github.
+> create a project on your computer by cloning a repository from GitHub.
 > If that option is not present, it probably means that RStudio doesn't know
 > where your Git executable is. See
 > [this page](https://stat545-ubc.github.io/git03_rstudio-meet-git.html)
@@ -53,7 +53,7 @@ to use Git:
 ![](../fig/RStudio_screenshot_afterclone.png)
 
 To edit the files in your repository, you can click on them from the panel in
-the lower right. We can edit README.md by double clicking on the file.  Tou can
+the lower right. We can edit README.md by double clicking on the file.  You can
 edit the file in the upper left hand panel.  Make a change and save it!
 
 We can also use RStudio to commit these changes. Go to the git menu and click

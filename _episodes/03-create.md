@@ -60,7 +60,7 @@ so no changes show up.
 > ## Places to Create Git Repositories
 >
 > Try to create a new git repository inside of the `survey_data` repository you just created.
-> Since you don't have the welcome screen anymore, you'll need to go to File/New Repository.
+> Since you don't have the welcome screen any more, you'll need to go to File/New Repository.
 >
 > What happens?  Can you create the sub-repository? Why is it a bad idea to do this? 
 >

@@ -101,7 +101,7 @@ made from the web is now included in the repository.
 > ## Fixing Remote Settings
 >
 > It happens quite often in practice that you made a typo in the
-> remote URL. This exercice is about how to fix this kind of issues.
+> remote URL. This exercise is about how to fix this kind of issues.
 > First start by adding a remote with an invalid URL:
 >
 > ~~~
