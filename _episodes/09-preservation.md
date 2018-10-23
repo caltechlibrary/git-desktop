@@ -76,10 +76,10 @@ the process looks like this:
 
 This open model accelerates discovery:
 the more open work is,
-[the more widely it is cited and re-used](http://dx.doi.org/10.1371/journal.pone.0000308).
+[the more widely it is cited and re-used](https://doi.org/10.1371/journal.pone.0000308).
 However,
 people who want to work this way need to make some decisions
-about what exactly "open" means and how to do it. You can find more on the different aspects of Open Science in [this book](http://link.springer.com/book/10.1007/978-3-319-00026-8).
+about what exactly "open" means and how to do it. You can find more on the different aspects of Open Science in [this book](https://link.springer.com/book/10.1007/978-3-319-00026-8).
 
 This is one of the (many) reasons we teach version control.
 When used diligently,
@@ -110,18 +110,18 @@ DOI with your publications as the link location can be updated without breaking.
 
 If your field has a domain-specific repository, this is a good place to store
 your data.  You can find a good listing of subject-specific repositories at
-[PLOS](http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories).  
+[PLOS](https://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories).  
 A more complete list of repositories is available at
-[re3data](http://www.re3data.org)
+[re3data](https://www.re3data.org)
 
 However, most code and a lot of data don't fit in an existing repository.  This
-is where institutional repositories like [CaltechDATA](data.caltech.edu) come
+is where institutional repositories like [CaltechDATA] come
 in.  We'll use CaltechDATA throughout the rest of this section, but non-Caltech
 users can use [Zenodo](http://zenodo.org), which is similar. 
 
 ### Setting Up Automatic GitHub Preservation
 
-Log into [CaltechDATA](data.caltech.edu) by clicking the Login link in the
+Log into [CaltechDATA] by clicking the Login link in the
 upper right-hand corner of the page.  You can click the "Caltech account" link
 to log in with your Caltech IMSS username and password. Once you're logged in,
 click on your profile (the little person icon in the upper right hand corner of
@@ -148,7 +148,7 @@ To make a release, go to GitHub and click the Releases text at the center-right
 of your main repository page.  Then click the "Draft a new release" button on
 the right-hand side of the screen. You'll need to provide a version number (use
 something like v0.1 prior to publication, something like v1.2.1 for changes
-after.  See more on [versioning](http://semver.org).)  You'll also need to
+after.  See more on [versioning](https://semver.org).)  You'll also need to
 provide a title and description for your release.  
 
 ![Releases](../fig/Releases.png)
@@ -182,4 +182,4 @@ disciplinary or institutional data repository.  For an overview of uploading
 data files to a repository, see this [AuthorCarpentry
 lesson](https://authorcarpentry.github.io/dois-citation-data/01-register-doi.html)
 
-
+[CaltechDATA]: https://data.caltech.edu/

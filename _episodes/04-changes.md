@@ -86,4 +86,4 @@ When we look at the history tab, we can see our new commit in the list.  It's go
 > {: .solution}
 {: .challenge}
 
-[commit-messages]: http://chris.beams.io/posts/git-commit/
+[commit-messages]: https://chris.beams.io/posts/git-commit/

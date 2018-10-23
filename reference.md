@@ -7,7 +7,7 @@ permalink: /reference/
 
 *   A great [printable git cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) is available in PDF from the
 [GitHub training website](https://services.github.com/resources/).
-*   An [interactive one-page visualisation](http://ndpsoftware.com/git-cheatsheet.html)
+*   An [interactive one-page visualisation](https://ndpsoftware.com/git-cheatsheet.html)
     about the relationships between workspace, staging area, local repository, upstream repository, and the commands associated with each (with explanations).
 *   Both resources are also available in other languages e.g. Spanish, French, and more
 
@@ -68,7 +68,7 @@ revision
 :   A synonym for [commit](#commit).
 
 SHA-1
-:   [SHA-1 hashes](http://en.wikipedia.org/wiki/SHA-1) is what Git uses to compute identifiers, including for commits.
+:   [SHA-1 hashes](https://en.wikipedia.org/wiki/SHA-1) is what Git uses to compute identifiers, including for commits.
     To compute these, Git uses not only the actual change of a commit, but also its metadata (such as date, author,
     message), including the identifiers of all commits of preceding changes. This makes Git commit IDs virtually unique.
     I.e., the likelihood that two commits made independently, even of the same change, receive the same ID is exceedingly

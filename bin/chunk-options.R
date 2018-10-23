@@ -2,7 +2,7 @@
 # For example, to generate the lessons with all the output hidden, simply change
 # `results` from "markup" to "hide".
 # For more information on available chunk options, see
-# http://yihui.name/knitr/options#chunk_options
+# https://yihui.name/knitr/options#chunk_options
 
 library("knitr")
 
