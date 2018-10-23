@@ -286,7 +286,7 @@ web-hosted private repositories.
 [drawings]: https://marklodato.github.io/visual-git-guide/index-en.html
 [git-it]: https://github.com/jlord/git-it
 [git-it-electron]: https://github.com/jlord/git-it-electron
-[git-parable]: http://tom.preston-werner.com/2009/05/19/the-git-parable.html
+[git-parable]: https://tom.preston-werner.com/2009/05/19/the-git-parable.html
 [github]: https://github.com/
 [github-gui]: http://git-scm.com/downloads/guis
 [github-line-endings]: https://help.github.com/articles/dealing-with-line-endings/#platform-all

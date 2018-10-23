@@ -64,7 +64,7 @@ and to meet some of our community members.
 ## Where to Contribute
 
 1.  If you wish to change this lesson,
-    please work in <https://github.com/swcarpentry/FIXME>,
+    please work in <https://github.com/caltechlibrary/git-desktop>,
     which can be viewed at <https://swcarpentry.github.io/FIXME>.
 
 2.  If you wish to change the example lesson,
@@ -155,18 +155,18 @@ You can also [reach us by email][contact].
 
 [contact]: mailto:admin@software-carpentry.org
 [dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
-[dc-lessons]: http://datacarpentry.org/lessons/
-[dc-site]: http://datacarpentry.org/
-[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss
-[github]: http://github.com
+[dc-lessons]: https://datacarpentry.org/lessons/
+[dc-site]: https://datacarpentry.org/
+[discuss-list]: https://carpentries.topicbox.com/groups/discuss
+[github]: https://github.com
 [github-flow]: https://guides.github.com/introduction/flow/
 [github-join]: https://github.com/join
 [how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
-[issues]: https://github.com/swcarpentry/FIXME/issues/
-[repo]: https://github.com/swcarpentry/FIXME/
+[issues]: https://github.com/caltechlibrary/git-desktop/issues/
+[repo]: https://github.com/caltechlibrary/git-desktop/
 [swc-issues]: https://github.com/issues?q=user%3Aswcarpentry
-[swc-lessons]: http://software-carpentry.org/lessons/
-[swc-site]: http://software-carpentry.org/
+[swc-lessons]: https://software-carpentry.org/lessons/
+[swc-site]: https://software-carpentry.org/
 '''
 
 ROOT_CONFIG_YML = '''\
@@ -198,11 +198,11 @@ repository: <USERNAME>/<PROJECT>
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
-dc_site: "http://datacarpentry.org"
+dc_site: "https://datacarpentry.org"
 swc_github: "https://github.com/swcarpentry"
 swc_site: "https://software-carpentry.org"
 swc_pages: "https://swcarpentry.github.io"
-lc_site: "http://librarycarpentry.github.io/"
+lc_site: "https://librarycarpentry.github.io/"
 template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
 example_site: "https://swcarpentry.github.com/lesson-example"

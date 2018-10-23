@@ -21,8 +21,8 @@ only thing missing is to copy changes from one repository to another.
 Systems like Git allow us to move work between any two repositories.  In
 practice, though, it's easiest to use one copy as a central hub, and to keep it
 on the web rather than on someone's laptop.  Most programmers use hosting
-services like [GitHub](http://github.com), [BitBucket](http://bitbucket.org) or
-[GitLab](http://gitlab.com/) to hold those master copies. Since we are using the
+services like [GitHub](https://github.com), [BitBucket](https://bitbucket.org) or
+[GitLab](https://gitlab.com/) to hold those master copies. Since we are using the
 GitHub Desktop software for this workshop, we'll be using the GitHub service.
 
 Let's start by sharing the changes we've made to our current project with the
