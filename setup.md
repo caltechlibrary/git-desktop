@@ -4,7 +4,9 @@ title: Setup
 permalink: /setup/
 ---
 
-Please see [the section of the workshop page][workshop-setup]
-for instructions on installing GitHub Desktop.
+**Windows** and **macOS** users please [download from `desktop.GitHub.com`][WM]
+and follow those instructions. **Linux** users, please [download from `GitHub.com/ShiftKey/desktop/releases`][L]
+one of the packages compatible with your Linux distribution.
 
-[workshop-setup]: https://caltechlibrary.github.io/2017-07-20-caltech/install.html
+[WM]: https://desktop.github.com/
+[L]: https://github.com/shiftkey/desktop/releases
