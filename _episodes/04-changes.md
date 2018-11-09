@@ -86,4 +86,22 @@ When we look at the history tab, we can see our new commit in the list.  It's go
 > {: .solution}
 {: .challenge}
 
+> ## Version-controlling images
+>
+> All Git tools are optimised for text files and show changes line-by-line.
+> GitHub Desktop and a few others can additionally show changes in image files
+> like `.jpg`, `.png`, etc. Let's try it with the two screenshot in this episode!
+>
+> 1. Right-click the 1st screenshot (`new file`)
+> 2. Download/save it into your repository folder, and commit it.
+> 3. How do you now need to treat the 2nd screenshot (`commit`) to make GitHub
+>    Desktop compare it to the former?
+>
+> > ## Solution
+> > Either save the 2nd image under the same name as the 1st, overwriting
+> > it, or download the 2nd, copy the name of the 1st, delete that and paste
+> > the name for the 2nd.
+> {: .solution}
+{: .challenge}
+
 [commit-messages]: https://chris.beams.io/posts/git-commit/
