@@ -98,9 +98,9 @@ When we look at the history tab, we can see our new commit in the list.  It's go
 >    Desktop compare it to the former?
 >
 > > ## Solution
-> > Either save the 2nd image under the same name as the 1st, overwriting
-> > it, or download the 2nd, copy the name of the 1st, delete that and paste
-> > the name for the 2nd.
+> > You'll want to save the 2nd image in your repository folder with the same name 
+> > as the 1st.  This will overwrite the 1st image in your file system, but once 
+> > you commit the 2nd image you have both images available in the git history.
 > {: .solution}
 {: .challenge}
 
