@@ -49,12 +49,12 @@ though,
 the process looks like this:
 
 *   The data that the scientist collects is stored in an open access repository
-    like [figshare](http://figshare.com/) or
-    [Zenodo](http://zenodo.org), possibly as soon as it's collected,
+    like [figshare](https://figshare.com/) or
+    [Zenodo](https://zenodo.org), possibly as soon as it's collected,
     and given its own
     [Digital Object Identifier](https://en.wikipedia.org/wiki/Digital_object_identifier) (DOI).
     Or the data was already published and is stored in
-    [Dryad](http://datadryad.org/).
+    [Dryad](https://datadryad.org/).
 *   The scientist creates a new repository on GitHub to hold her work.
 *   As she does her analysis,
     she pushes changes to her scripts
@@ -63,7 +63,7 @@ the process looks like this:
     She also uses the repository for her paper;
     that repository is then the hub for collaboration with her colleagues.
 *   When she's happy with the state of her paper,
-    she posts a version to [arXiv](http://arxiv.org/)
+    she posts a version to [arXiv](https://arxiv.org/)
     or some other preprint server
     to invite feedback from peers.
 *   Based on that feedback,
@@ -117,7 +117,7 @@ A more complete list of repositories is available at
 However, most code and a lot of data don't fit in an existing repository.  This
 is where institutional repositories like [CaltechDATA] come
 in.  We'll use CaltechDATA throughout the rest of this section, but non-Caltech
-users can use [Zenodo](http://zenodo.org), which is similar. 
+users can use [Zenodo](https://zenodo.org), which is similar. 
 
 ### Setting Up Automatic GitHub Preservation
 

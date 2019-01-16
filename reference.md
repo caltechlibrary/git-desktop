@@ -37,7 +37,7 @@ HTTP
     on the World Wide Web.
 
 infective license
-:   A license, such as the [GPL](http://opensource.org/licenses/GPL-3.0),
+:   A license, such as the [GPL](https://opensource.org/licenses/GPL-3.0),
     that legally requires people who incorporate material under the
     infective license
     into their own work to also release under the same infective license
